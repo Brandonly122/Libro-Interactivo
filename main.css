@@ -1,0 +1,42 @@
+body{
+font-family: 'Merriweather', serif;
+line-height: 1.6;
+color: rgb(246, 251, 255);
+background-color: rgb(0, 243, 65);
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(247, 253, 253);
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgb(216, 36, 5);
+}
+h1 {
+    text-align: center;
+    color: rgb(8, 127, 246);
+}
+p {
+    text-indent: 50px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.page{
+    height: 800px;
+    overflow: auto;
+    border-bottom: 1px solid #1ada05;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.navigation {
+    text-align: center;
+}
+.navigation a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 2em;
+}
